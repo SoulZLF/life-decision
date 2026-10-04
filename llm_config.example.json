@@ -1,0 +1,8 @@
+{
+  "provider": "deepseek",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-chat",
+  "api_key": "",
+  "timeout": 20,
+  "_comment": "把 api_key 填进来即可启用 LLM 解析；留空则自动回退规则版。也可以改用环境变量 DEEPSEEK_API_KEY。"
+}

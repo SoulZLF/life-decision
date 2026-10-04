@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "knowledge": {
+      "command": "python",
+      "args": ["C:/Users/你的用户名/kb-project/mcp_server/knowledge_mcp.py"],
+      "env": {}
+    }
+  }
+}

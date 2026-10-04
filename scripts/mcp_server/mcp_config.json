@@ -1,0 +1,10 @@
+{
+  "_comment": "Linux/沙箱版示例。Windows 请用 mcp_config_windows.json。command 用 python，args 用实际绝对路径。",
+  "mcpServers": {
+    "knowledge": {
+      "command": "python3",
+      "args": ["/workspace/kb-project/mcp_server/knowledge_mcp.py"],
+      "env": {}
+    }
+  }
+}

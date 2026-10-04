@@ -1,0 +1,19 @@
+# 缓存与临时文件
+cache/
+exports/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# 本地配置（可能含真实 key）
+llm_config.json
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 系统文件
+.DS_Store
+Thumbs.db
