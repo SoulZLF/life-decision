@@ -16,3 +16,9 @@
 - 同步失败，跳过 commit/push。
 - 原因：下载 GitHub tarball 连接被拒；7897 代理端口未监听（Clash Verge 未运行或端口变更），直连 GitHub 也超时。
 - 处理：按预案保留现有索引不变，未重试。下次执行前需确认 Clash Verge 运行状态 / mixed-port 是否仍为 7897。
+
+## 2026-10-26（第四次执行）
+- 同步成功：解析 767 条 / 索引 767 条（较上次 +80）。
+- 用 venv Python（`binaries/python/envs/default/Scripts/python.exe`）运行，因默认 3.13.12 python 缺 jieba。
+- 已本地 commit `196058c`。
+- push 失败：7897 代理端口无法连接（Clash Verge 未运行或端口变更），提交保留本地待补推。
